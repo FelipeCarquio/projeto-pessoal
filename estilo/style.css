@@ -7,8 +7,9 @@
 }
 
 body {
-    background-color: gray;
-    font-family: ;
+    background-color: rgb(27, 27, 27);
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -48,6 +49,7 @@ main {
 }
 
 main > h2 {
+    background-color: aqua;
     color: #00446c;
     width: 200px;
     text-align: center;
@@ -57,11 +59,11 @@ main > h2 {
 }
 
 main > p {
+    background-color: aqua;
     color: #00446c;
-    width: 400px;
     padding: 50px;
     margin: auto;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
