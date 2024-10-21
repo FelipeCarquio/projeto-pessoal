@@ -1,0 +1,40 @@
+@charset "UFT-8";
+
+@media screen and (min-width: 768px) {
+    header {
+        background-color: #00446c;
+        padding: 15px 25px 25px 25px;
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    header > nav {
+        align-self: flex-end;
+    }
+
+    #mhamburger {
+        display: none;
+    }
+
+    nav > a {
+        display: inline;
+        padding: 10px;
+    }
+
+    nav > a:hover {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 9px;
+        text-decoration: none;
+        background-color: white;
+        color: #00446c;
+    }
+
+    main > h2 {
+        font-size: 3em;
+        width: 50vw;
+    }
+}
