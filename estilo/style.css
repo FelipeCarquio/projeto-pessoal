@@ -44,6 +44,7 @@ menu > ul > li > a {
 
 main {
     background-color: white;
+    background-image: url(../imagem/background.png);
     height: 100vh;
     width: 100vw;
 }
